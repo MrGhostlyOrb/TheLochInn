@@ -1,0 +1,45 @@
+*{
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+	font-family:Open Sans;
+}
+header{
+	background-color: hotpink;
+	height:20%;
+	background-image: url(Castle.png);
+	background-position:center;
+}
+nav{
+	background-color:blue;
+	height:10%;
+}
+article{
+	background-color:gold;
+	height:50%
+}
+footer{
+	background-color:lightgray;
+	height:20%;
+}
+li,ul{
+	width:30%;
+	height:50;
+	display:inline-block;
+}
+h1{
+	width:50%;
+	position:relative;
+	left:15%;
+	top:30%;
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card {
+  background: darkgray;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+}
