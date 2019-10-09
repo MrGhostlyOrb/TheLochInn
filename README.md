@@ -1,5 +1,5 @@
 # TheLochInn
-Static website for The Loch Inn
+Static website for The Loch Inn for assignment
 
 How to update the Repo from the command line:
 
