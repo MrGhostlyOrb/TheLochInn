@@ -13,19 +13,28 @@ header{
 }
 nav{
 	background-color:blue;
-	height:10%;
+	height:3%;
 }
 article{
 	background-color:gold;
-	height:50%
+	height:72%
 }
 footer{
 	background-color:lightgray;
-	height:20%;
+	height:5%;
 }
-li,ul{
+li{
 	width:30%;
-	height:50;
+	height:100%;;
+	display:inline-block;
+	position:relative;
+	left:35%;
+	top:30%;
+	text-align:center;
+}
+ul{
+	width:50%;
+	height:100%;
 	display:inline-block;
 }
 h1{
