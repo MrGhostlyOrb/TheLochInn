@@ -9,18 +9,18 @@ header{
 	background-color: hotpink;
 	height:20%;
 	background-image: url(Castle.png);
-	background-position:center;
+	background-position:10% 30%;
 }
 nav{
-	background-color:blue;
+	background-color:#A9A9A9;
 	height:4%;
 }
 article{
-	background-color:#313638;
+	background-color:#FFFFFF;
 	height:80%
 }
 footer{
-	background-color:#D3C1C3;
+	background-color:#A9A9A9;
 	height:5%;
 }
 li{
@@ -40,7 +40,7 @@ ul{
 h1{
 	width:50%;
 	position:relative;
-	left:15%;
+	left:22%;
 	top:30%;
 }
 h3{
@@ -52,13 +52,12 @@ h3{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .card {
-  background: darkgray;
   border-radius: 2px;
   display: inline-block;
   position: relative;
 }
 .content-container{
-	background-color:#696C6E;
+	background-color:#4BA2EA;
 	width:80%;
 	height:20%;
 	position:relative;
