@@ -94,3 +94,59 @@ h3{
 	height:100%;
 	display:inline-block;
 }
+.content-container-form{
+	background-color:#4BA2EA;
+	width:80%;
+	height:100%;
+	position:relative;
+	left:6%;
+	top:6%;
+	padding:2%;
+	margin:2%;
+}
+.content-container-header{
+	background-color:#4BA2EA;
+	width:80%;
+	height:5%;
+	position:relative;
+	left:6%;
+	top:6%;
+	padding:2%;
+	margin:2% 2% 5%;
+}
+form{
+	height:100%;
+	width:80%;
+	position:relative;
+	left:10%;
+	
+}
+textarea{
+	height:10%;
+	width:100%;
+}
+button{
+	height:10%;
+	width:100%;
+}
+.frm-h{
+	text-align:center;
+	margin:0%;
+	padding:0%;
+	position:relative;
+	top:30%;
+}
+.frm{
+	margin:0%;
+	padding:0%;
+	text-align:center;
+	height:5%;
+	width:80%;
+	position:relative;
+	left:10%;
+	font-size:20px;
+}
+input{
+	height:5%;
+	margin-bottom:5%;
+}

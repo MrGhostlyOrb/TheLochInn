@@ -16,44 +16,39 @@
 		</header>
 		<nav class = "card card-2">
 			<ul>
-				<a href = "index.html"><li>Home</li></a>
-				<a href = "facilities.html"><li>Facilities</li></a>
-				<a href = "reservations.html"><li>Reservations</li></a>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "facilities.html">Facilities</a></li>
+				<li><a href = "reservations.html">Reservations</a></li>
 			</ul>
 		</nav>
 		<article>
-			<div class = "content-container card card-2">
-				<h3>
-					About Us
-				</h3>
-				<p>
-					Henry Porter is the owner of The Loch Inn, located in the Inverness, Scotland. The hotel offers
-					a relaxing stay, with excellent dining facilities. The Loch Inn offers tours for travellers on
-					vacation. For corporate stays, the inn provides facilities such as free WIFI, a wake-up call
-					service, 24-hour dining, conference rooms, free laundry and pick up services. 
-				</p>
+			<div class = "content-container-header card card-2">
+				<h3 class = "frm-h">Please fill in the form below in order to make a reservation at The Loch Inn</h3>
 			</div>
-			<div class = "content-container card card-2">
-				<h3>
-					About Us
-				</h3>
-				<p>
-					Henry Porter is the owner of The Loch Inn, located in the Inverness, Scotland. The hotel offers
-					a relaxing stay, with excellent dining facilities. The Loch Inn offers tours for travellers on
-					vacation. For corporate stays, the inn provides facilities such as free WIFI, a wake-up call
-					service, 24-hour dining, conference rooms, free laundry and pick up services. 
-				</p>
-			</div>
-			<div class = "content-container card card-2">
-				<h3>
-					About Us
-				</h3>
-				<p>
-					Henry Porter is the owner of The Loch Inn, located in the Inverness, Scotland. The hotel offers
-					a relaxing stay, with excellent dining facilities. The Loch Inn offers tours for travellers on
-					vacation. For corporate stays, the inn provides facilities such as free WIFI, a wake-up call
-					service, 24-hour dining, conference rooms, free laundry and pick up services. 
-				</p>
+			<div class = "content-container-form card card-2">
+				<form>
+					<p class = "frm">Personal Details</p>
+					<input type = "text" name = "firstname" value = "First Name">
+					<br>
+					<input type = "text" name = "lastname" value = "Last Name">
+					<br>
+					<input type = "text" name = "email" value = "Email">
+					<br>
+					<p class = "frm">Start Date</p>
+					<input type = "date">
+					<p class = "frm">End Date</p>
+					<input type = "date">
+					
+					
+					
+					<p class = "frm">Please add any special requirements you may need</p>
+					
+					<textarea name = "message">
+					</textarea>
+					
+					<button type = "button" onclick = "alert('Form submitted, you will recieve your confirmation email shortly.')">Send</button>
+					
+				</form>
 			</div>
 		</article>
 		<footer>
