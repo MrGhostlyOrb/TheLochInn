@@ -7,7 +7,7 @@
 		<title>Reservations</title>
 		<link rel="shortcut icon" type="image/png" href="home.png"/>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">	
-		<script>function topFunction() {document.documentElement.scrollTop = 0;}</script>
+		<script type = "text/javascript" src = "myscripts.js"></script>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
@@ -35,7 +35,8 @@
 					<input type = "text" name = "email" value = "Email">
 					<br>
 					<p class = "frm">Start Date</p>
-					<input type = "date">
+					<script>checkDate();</script>
+					<input id = "datefield" type = "date">
 					<p class = "frm">End Date</p>
 					<input type = "date">
 					
