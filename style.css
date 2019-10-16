@@ -29,6 +29,16 @@ footer{
 	position:relative;
 	bottom:-50%;
 }
+.footer-text{
+	text-align:center;
+	width:50%;
+	position:relative;
+	left:25%;
+	top:30%;
+}
+.footer-link{
+	margin-left:5%;
+}
 li{
 	width:30%;
 	height:50%;
