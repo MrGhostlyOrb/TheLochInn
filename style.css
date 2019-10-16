@@ -186,6 +186,12 @@ input{
 	article{
 		background-color:#FFFFFF;
 	}
+	header{
+		background-color: hotpink;
+		height:20%;
+		background-image: url(Castle.png);
+		background-position:10% 30%;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -194,5 +200,11 @@ input{
 	}
 	aritcle{
 		background-color:#424242;
+	}
+	header{
+		background-color: hotpink;
+		height:20%;
+		background-image: url(night.jpg);
+		background-position:10% 30%;
 	}
 }
