@@ -6,6 +6,9 @@
 	font-family:Open Sans;
 	color:#0D0106;
 }
+body{
+	background-color:#424242;
+}
 header{
 	background-color: hotpink;
 	height:20%;
@@ -20,14 +23,14 @@ a{
 	text-decoration:none;
 }
 article{
-	background-color:#FFFFFF;
+	background-color:#424242;
 	height:80%
 }
 footer{
 	background-color:#3626A7;
 	height:5%;
 	position:relative;
-	bottom:-50%;
+	bottom:-30%;
 }
 .footer-text{
 	text-align:center;
