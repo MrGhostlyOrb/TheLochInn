@@ -34,10 +34,24 @@ footer{
 	width:50%;
 	position:relative;
 	left:25%;
-	top:30%;
+	height:40%;
+	top:-10%;
 }
 .footer-link{
 	margin-left:5%;
+}
+.social{
+	width:50%;
+	height:50%;
+	float:left;
+	position:relative;
+	left:1%;
+	top:20%;
+}
+.social-image{
+	width:10%;
+	height:100%;
+	margin:2%;
 }
 li{
 	width:30%;
