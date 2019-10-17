@@ -28,9 +28,10 @@ article{
 }
 footer{
 	background-color:#3626A7;
-	height:5%;
+	height:10%;
 	position:relative;
-	bottom:-30%;
+	bottom:-40%;
+	color:#FFFFFF;
 }
 .footer-text{
 	text-align:center;
@@ -39,17 +40,20 @@ footer{
 	left:25%;
 	height:40%;
 	top:-10%;
+	color:#FFFFFF;
 }
 .footer-link{
 	margin-left:5%;
+	color:#FFFFFF;
+	
 }
 .social{
 	width:50%;
-	height:50%;
+	height:60%;
 	float:left;
 	position:relative;
 	left:1%;
-	top:20%;
+	top:5%;
 }
 .social-image{
 	width:10%;
@@ -91,10 +95,10 @@ h3{
 }
 .content-container{
 	background-color:#4BA2EA;
-	width:80%;
+	width:60%;
 	height:20%;
 	position:relative;
-	left:6%;
+	left:16%;
 	top:6%;
 	padding:2%;
 	margin:2%;
