@@ -14,9 +14,9 @@ body{
 }
 }
 header{
-	background-color: hotpink;
+	background-color:#FFFFFF;
 	height:20%;
-	background-image: url(Castle.png);
+	background-image:url(castle3.jpg);
 	background-position:10% 30%;
 }
 nav{
@@ -98,7 +98,7 @@ h3{
   position: relative;
 }
 .content-container{
-	background-color:#4BA2EA;
+	background-color:#F8BBD0;
 	width:60%;
 	height:20%;
 	position:relative;
@@ -133,14 +133,15 @@ h3{
 	display:inline-block;
 	position:relative;
 	left:2%;
-	top:2%;
+	top:10%;
 }
 .col{
 	width:60%;
-	height:80%;
+	height:30%;
 	display:inline-block;
 	position:relative;
 	left:15%;
+	top:10%;
 }
 
 .colh{
@@ -168,7 +169,7 @@ h3{
 	height:100%;
 }
 .content-container-form{
-	background-color:#4BA2EA;
+	background-color:#F8BBD0;
 	width:60%;
 	height:105%;
 	position:relative;
@@ -178,7 +179,7 @@ h3{
 	margin:2%;
 }
 .content-container-header{
-	background-color:#4BA2EA;
+	background-color:#F8BBD0;
 	width:60%;
 	height:5%;
 	position:relative;
@@ -186,6 +187,16 @@ h3{
 	top:6%;
 	padding:2%;
 	margin:2% 2% 5%;
+}
+.content-container-fac{
+	background-color:#F8BBD0;
+	width:60%;
+	height:100%;
+	position:relative;
+	left:16%;
+	top:6%;
+	padding:2%;
+	margin:2%;
 }
 form{
 	height:100%;
