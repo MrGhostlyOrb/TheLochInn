@@ -32,7 +32,7 @@ article{
 }
 footer{
 	background-color:#3626A7;
-	height:11%;
+	height:8%;
 	position:relative;
 	bottom:-50%;
 	color:#FFFFFF;
@@ -41,9 +41,9 @@ footer{
 	text-align:center;
 	width:50%;
 	position:relative;
-	left:25%;
+	left:10%;
 	height:30%;
-	top:-10%;
+	top:50%;
 	color:#FFFFFF;
 }
 .footer-link{
@@ -52,12 +52,12 @@ footer{
 	
 }
 .social{
-	width:50%;
-	height:60%;
+	width:25%;
+	height:40%;
 	float:left;
 	position:relative;
 	left:1%;
-	top:4%;
+	top:20%;
 }
 .social-image{
 	width:10%;
@@ -81,7 +81,7 @@ ul{
 h1{
 	width:50%;
 	position:relative;
-	left:18%;
+	left:16%;
 	top:40%;
 }
 h3{
@@ -172,7 +172,7 @@ h3{
 	width:60%;
 	height:105%;
 	position:relative;
-	left:15%;
+	left:16%;
 	top:6%;
 	padding:2%;
 	margin:2%;
@@ -182,7 +182,7 @@ h3{
 	width:60%;
 	height:5%;
 	position:relative;
-	left:15%;
+	left:16%;
 	top:6%;
 	padding:2%;
 	margin:2% 2% 5%;
@@ -223,13 +223,25 @@ input{
 	height:5%;
 	margin-bottom:5%;
 }
-.side{
+.sidel{
 	width:10%;
 	position:fixed;
 	top:30%;
 	left:3.5%;
 	background-color:red;
 	height:50%;
+	background-image:url(tall.jpg);
+	background-position:80% 50%;
+}
+.sider{
+	width:10%;
+	position:fixed;
+	top:30%;
+	right:3.5%;
+	background-color:red;
+	height:50%;
+	background-image:url(tall.jpg);
+	background-position:80% 50%;
 }
 
 @media (prefers-color-scheme: light) {
