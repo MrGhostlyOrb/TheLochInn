@@ -3,7 +3,7 @@
 	margin:0px;
 	height:100%;
 	width:100%;
-	font-family:Open Sans;
+	font-family:'Open Sans';
 	color:#0D0106;
 }
 body{
@@ -12,7 +12,6 @@ body{
 }
 ::-webkit-scrollbar {
     display: none;
-}
 }
 header{
 	background-color:#FFFFFF;
@@ -180,7 +179,7 @@ h3{
 .rowhl{
 	width:40%;
 	height:100%;
-	background-color:gold;
+	background-color:#FFFFFF;
 }
 .pic{
 	width:100%;
@@ -295,14 +294,17 @@ input{
 @media (prefers-color-scheme: dark) {
 	body{
 		background-color:#424242;
+		height:110%;
 	}
 	aritcle{
 		background-color:#424242;
+		height:80%;
 	}
 	header{
 		background-color: hotpink;
 		height:20%;
 		background-image: url(night.jpg);
 		background-position:10% 30%;
+
 	}
 }
