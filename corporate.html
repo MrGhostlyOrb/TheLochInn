@@ -4,7 +4,7 @@
 	<!-- Head Definitions -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Facilities</title>
+		<title>Reservations</title>
 		<link rel="shortcut icon" type="image/png" href="home.png"/>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">	
 		
@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<header>
-			<h1>Facilities</h1>
+			<h1>Corporate Reservations</h1>
 		</header>
 		<nav class = "card card-2">
 			<ul>
@@ -22,39 +22,38 @@
 				<li><a href = "corporate.html">Corporate Reservations</a></li>
 			</ul>
 		</nav>
-		<article class = "content-container-fac card card-2">
-			<h2 class = "faci">Our Facilities</h2>
-			<div class = "row">
-				<div class = "col">
-					<img src = "faci1.jpg" alt = "image">
-					<p>Resturant paragraph goes here</p>
-				</div>
-		
-				<div class = "colsp">
-					<img src = "faci2.jpg" alt = "image">
-					<p>Library paragraph goes here</p>
-				</div>
-				
-				<div class = "col">
-					<img src = "faci3.jpg" alt = "image">
-					<p>Bar paragraph goes here</p>
-				</div>
+		<article>
+			
+			<div class = "content-container-header card card-2">
+				<h3 class = "frm-h">Please fill in the form below in order to make a reservation at The Loch Inn</h3>
 			</div>
-			<div class = "row">
-				<div class = "colsp">
-					<img src = "faci4.jpg" alt = "image">
-					<p>Lounge paragraph goes here</p>
-				</div>
-		
-				<div class = "col">
-					<img src = "faci5.jpg" alt = "image">
-					<p>Garden paragraph goes here</p>
-				</div>
-				
-				<div class = "colsp">
-					<img src = "faci6.jpg" alt = "image">
-					<p>Business paragraph goes here</p>
-				</div>
+			<div class = "content-container-form card card-2">
+				<form>
+					<p class = "frm">Personal Details</p>
+					<input required type = "text" name = "firstname" placeholder = "*First Name" accesskey = "F">
+					<br>
+					<input required type = "text" name = "lastname" placeholder = "*Last Name" accesskey = "L">
+					<br>
+					<input required type = "email" name = "email" placeholder = "*Email" accesskey = "E">
+					<br>
+					<p class = "frm">Start Date</p>
+
+					<input type = "date" accesskey = "S">
+
+					
+
+					<p class = "frm">End Date</p>
+					<input type = "date" accesskey = "D">
+					
+					
+					
+					<p class = "frm">Please add any special requirements you may need</p>
+					
+					<textarea name = "message" rows = "1" cols = "1" placeholder = "Details"></textarea>
+					
+					<button type = "submit" onclick = "alert('Form submitted, you will recieve your confirmation email shortly.')">Send</button>
+					
+				</form>
 			</div>
 		</article>
 		<footer>
