@@ -1,5 +1,5 @@
 # TheLochInn
-Static website for The Loch Inn for assignment
+Completed static website for The Loch Inn for assignment coded in HTML and CSS, including dark mode and various other static features. To activate dark mode, change the default for your OS and it should automatically update.
 
 How to update the Repo from the command line:
 
